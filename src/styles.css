@@ -1,0 +1,142 @@
+.App {
+  font-family: sans-serif;
+  height: 100%;
+}
+
+body,
+h1,
+h2,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(249, 251, 254);
+  height: 100%;
+}
+
+table {
+  table-layout: auto;
+  width: 100%;
+}
+
+.toggleCSS {
+  margin-left: 10px;
+}
+
+.toggleLabelCSS {
+  position: relative;
+  display: inline-block;
+  height: 24px;
+  width: 48px;
+}
+
+.toggleInputCSS {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+
+.toggleInputOnCSS {
+  opacity: 0;
+  width: 0;
+  height: 0;
+  margin: 0;
+}
+
+.toggleSliderCSS {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.toggleSliderOnCSS {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0bbf89;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.toggleSliderCSS:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  top: 3px;
+  left: 3px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.toggleSliderOnCSS:before {
+  position: absolute;
+  content: "";
+  height: 18px;
+  width: 18px;
+  top: 3px;
+  right: 3px;
+  background-color: white;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.toggleInputCSS:checked + .toggleSliderCSS {
+  background-color: #00e2a6;
+}
+
+.toggleInputOnCSS:checked + .toggleSliderOnCSS {
+  background-color: #ccc;
+}
+
+.toggleInputCSS:checked + .toggleSliderCSS:before {
+  -webkit-transform: translateX(18px);
+  -ms-transform: translateX(18px);
+  transform: translateX(18px);
+}
+
+.toggleInputOnCSS:checked + .toggleSliderOnCSS:before {
+  -webkit-transform: translateX(-18px);
+  -ms-transform: translateX(-18px);
+  transform: translateX(-18px);
+}
+
+.toggleSliderCSS.roundCSS {
+  border-radius: 34px;
+}
+
+.toggleSliderOnCSS.roundCSS {
+  border-radius: 34px;
+}
+
+.toggleSliderCSS.roundCSS:before {
+  border-radius: 50%;
+}
+
+.toggleSliderOnCSS.roundCSS:before {
+  border-radius: 50%;
+}

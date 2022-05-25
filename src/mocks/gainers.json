@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "id": "2",
+      "rank": "1",
+      "name": "Flokinomics",
+      "symbol": "FLOKIN",
+      "last_price": "$0.0000003524"
+    },
+    {
+      "id": "2",
+      "rank": "2",
+      "name": "Themis",
+      "symbol": "MIS",
+      "last_price": "$0.296"
+    },
+    {
+      "id": "2",
+      "rank": "3",
+      "name": "Husky",
+      "symbol": "HUSKY",
+      "last_price": "$0.000000008668"
+    }
+  ]
+}

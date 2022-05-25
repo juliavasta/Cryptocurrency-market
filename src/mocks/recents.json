@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "id": "3",
+      "rank": "1",
+      "name": "GreenZoneX",
+      "symbol": "GZX",
+      "last_price": "$0.0002873"
+    },
+    {
+      "id": "3",
+      "rank": "2",
+      "name": "Triall",
+      "symbol": "TRL",
+      "last_price": "$0.4549"
+    },
+    {
+      "id": "3",
+      "rank": "3",
+      "name": "Swanlana",
+      "symbol": "SWAN",
+      "last_price": "$1.85"
+    }
+  ]
+}

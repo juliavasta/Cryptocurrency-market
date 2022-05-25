@@ -1,0 +1,25 @@
+{
+  "results": [
+    {
+      "id": "1",
+      "rank": "1",
+      "name": "Axie Infinity",
+      "symbol": "AXS",
+      "last_price": "$130.91"
+    },
+    {
+      "id": "1",
+      "rank": "2",
+      "name": "Kalata",
+      "symbol": "KALA",
+      "last_price": "$0.4654"
+    },
+    {
+      "id": "1",
+      "rank": "3",
+      "name": "Kodi",
+      "symbol": "KODI",
+      "last_price": "$0.00003578"
+    }
+  ]
+}
