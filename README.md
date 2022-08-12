@@ -15,7 +15,6 @@ I created a Cryptocurrency market Web App with ReactJS.
 * Dark/Light Mode Toggle
 * Toggle button to show/hide data
 * Render Props
-* Emotion - for styling
 * Search bar
 * Data Filtering
 * Favorites List
@@ -25,6 +24,7 @@ I created a Cryptocurrency market Web App with ReactJS.
 * Sorting data
 * Routing and Dynamic Routing - React Router
 * SOLID Principles
+* Emotion - for styling
 * Responsive design
 
 # Some improvements to implement:
