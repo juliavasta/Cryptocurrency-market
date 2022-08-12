@@ -32,7 +32,7 @@ I created a Cryptocurrency market Web App with ReactJS.
 * TypeScript
 
 # Demo
-Live view by clicking the badge: [![Netlify Status](https://api.netlify.com/api/v1/badges/f9a7f8d3-58ca-44ed-a038-ae8d2efd31a5/deploy-status)](https://csb-796egy.netlify.app/)
+Live demo of the project by clicking the badge: [![Netlify Status](https://api.netlify.com/api/v1/badges/f9a7f8d3-58ca-44ed-a038-ae8d2efd31a5/deploy-status)](https://csb-796egy.netlify.app/)
 
 # Installation
 
