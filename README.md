@@ -23,7 +23,6 @@ I created a Cryptocurrency market Web App with ReactJS.
 * Dropdown menu
 * Select
 * Sorting data
-* 
 * Routing and Dynamic Routing - React Router
 * SOLID Principles
 * Responsive design
